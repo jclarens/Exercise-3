@@ -1,5 +1,6 @@
 # Exercise-3
 EXERCISE
+
 Buatlah sebuah halaman dengan kriteria sebagai berikut:
 
 Buatlah table dengan data dari Swapi
