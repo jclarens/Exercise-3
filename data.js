@@ -246,7 +246,7 @@ var thead = table.getElementsByTagName('thead')[0];
 var tbody = table.getElementsByTagName('tbody')[0];
 
 var planets = dataObject.results[0];
-// console.log(planets);
+console.log(planets);
 var tr1 = document.createElement("tr");
 var th = document.createElement("th");
 th.innerHTML = 'No';
@@ -260,7 +260,7 @@ for (var planet in planets) {
 }
 thead.appendChild(tr1);
 
-//============================  data tbody
+//============================tbody
 var index = 0;
 dataObject.results.forEach(allObj => {
     index +=1;
